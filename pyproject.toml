@@ -1,0 +1,15 @@
+[project]
+name = "resume-ai-application"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.3.9",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.4.7",
+    "langchain-groq>=1.1.3",
+    "pypdf>=6.13.3",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.58.0",
+]
